@@ -1,0 +1,3 @@
+/home/wdz/ThreadPool/build/CMakeFiles/ThreadPool.dir
+/home/wdz/ThreadPool/build/CMakeFiles/edit_cache.dir
+/home/wdz/ThreadPool/build/CMakeFiles/rebuild_cache.dir

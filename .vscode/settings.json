@@ -33,5 +33,24 @@
     "**/.vscode",
     "**/.vscode/**"
   ],
-  "C_Cpp_Runner.useAddressSanitizer": false
+  "C_Cpp_Runner.useAddressSanitizer": false,
+  "files.associations": {
+    "stdexcept": "cpp",
+    "queue": "cpp",
+    "array": "cpp",
+    "*.tcc": "cpp",
+    "ciso646": "cpp",
+    "deque": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "string_view": "cpp",
+    "istream": "cpp",
+    "sstream": "cpp",
+    "functional": "cpp",
+    "type_traits": "cpp",
+    "tuple": "cpp",
+    "unordered_map": "cpp",
+    "initializer_list": "cpp",
+    "utility": "cpp"
+  }
 }

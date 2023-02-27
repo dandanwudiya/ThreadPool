@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/wdz/ThreadPool/build",
+  "command": "/usr/bin/c++   -g -pthread -std=gnu++20 -o CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o -c /home/wdz/ThreadPool/ThreadPool.cpp",
+  "file": "/home/wdz/ThreadPool/ThreadPool.cpp"
+},
+{
+  "directory": "/home/wdz/ThreadPool/build",
+  "command": "/usr/bin/c++   -g -pthread -std=gnu++20 -o CMakeFiles/ThreadPool.dir/Producers.cpp.o -c /home/wdz/ThreadPool/Producers.cpp",
+  "file": "/home/wdz/ThreadPool/Producers.cpp"
+}
+]
