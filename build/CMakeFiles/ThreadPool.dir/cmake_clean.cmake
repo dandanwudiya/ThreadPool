@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ThreadPool.dir/Producers.cpp.o"
-  "CMakeFiles/ThreadPool.dir/Producers.cpp.o.d"
   "CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o"
   "CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o.d"
+  "CMakeFiles/ThreadPool.dir/multiprod.cpp.o"
+  "CMakeFiles/ThreadPool.dir/multiprod.cpp.o.d"
   "ThreadPool"
   "ThreadPool.pdb"
 )

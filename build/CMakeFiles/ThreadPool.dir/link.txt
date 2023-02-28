@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o CMakeFiles/ThreadPool.dir/Producers.cpp.o -o ThreadPool 
+/usr/bin/c++ -g CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o CMakeFiles/ThreadPool.dir/multiprod.cpp.o -o ThreadPool 

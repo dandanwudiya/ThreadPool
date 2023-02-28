@@ -129,30 +129,6 @@ ThreadPool/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/build
 .PHONY : ThreadPool/fast
 
-Producers.o: Producers.cpp.o
-.PHONY : Producers.o
-
-# target to build an object file
-Producers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/Producers.cpp.o
-.PHONY : Producers.cpp.o
-
-Producers.i: Producers.cpp.i
-.PHONY : Producers.i
-
-# target to preprocess a source file
-Producers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/Producers.cpp.i
-.PHONY : Producers.cpp.i
-
-Producers.s: Producers.cpp.s
-.PHONY : Producers.s
-
-# target to generate assembly for a file
-Producers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/Producers.cpp.s
-.PHONY : Producers.cpp.s
-
 ThreadPool.o: ThreadPool.cpp.o
 .PHONY : ThreadPool.o
 
@@ -177,6 +153,30 @@ ThreadPool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/ThreadPool.cpp.s
 .PHONY : ThreadPool.cpp.s
 
+multiprod.o: multiprod.cpp.o
+.PHONY : multiprod.o
+
+# target to build an object file
+multiprod.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/multiprod.cpp.o
+.PHONY : multiprod.cpp.o
+
+multiprod.i: multiprod.cpp.i
+.PHONY : multiprod.i
+
+# target to preprocess a source file
+multiprod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/multiprod.cpp.i
+.PHONY : multiprod.cpp.i
+
+multiprod.s: multiprod.cpp.s
+.PHONY : multiprod.s
+
+# target to generate assembly for a file
+multiprod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/multiprod.cpp.s
+.PHONY : multiprod.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ThreadPool"
-	@echo "... Producers.o"
-	@echo "... Producers.i"
-	@echo "... Producers.s"
 	@echo "... ThreadPool.o"
 	@echo "... ThreadPool.i"
 	@echo "... ThreadPool.s"
+	@echo "... multiprod.o"
+	@echo "... multiprod.i"
+	@echo "... multiprod.s"
 .PHONY : help
 
 

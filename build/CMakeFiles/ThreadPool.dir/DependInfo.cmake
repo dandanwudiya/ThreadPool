@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/wdz/ThreadPool/Producers.cpp" "CMakeFiles/ThreadPool.dir/Producers.cpp.o" "gcc" "CMakeFiles/ThreadPool.dir/Producers.cpp.o.d"
   "/home/wdz/ThreadPool/ThreadPool.cpp" "CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o" "gcc" "CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o.d"
+  "/home/wdz/ThreadPool/multiprod.cpp" "CMakeFiles/ThreadPool.dir/multiprod.cpp.o" "gcc" "CMakeFiles/ThreadPool.dir/multiprod.cpp.o.d"
   )
 
 # Targets to which this target links.
