@@ -272,7 +272,7 @@ CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o: ../ThreadPool.cpp \
   /usr/include/c++/11/thread \
   /usr/include/assert.h
 
-CMakeFiles/ThreadPool.dir/multiprod.cpp.o: ../multiprod.cpp \
+CMakeFiles/ThreadPool.dir/benchtest.cpp.o: ../benchtest.cpp \
   /usr/include/stdc-predef.h \
   ../ThreadPool.h \
   /usr/include/c++/11/iostream \
@@ -546,7 +546,7 @@ CMakeFiles/ThreadPool.dir/multiprod.cpp.o: ../multiprod.cpp \
   /usr/include/c++/11/bits/atomic_futex.h
 
 
-../multiprod.cpp:
+../benchtest.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 

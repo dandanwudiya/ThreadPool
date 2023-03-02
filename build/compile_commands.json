@@ -6,7 +6,7 @@
 },
 {
   "directory": "/home/wdz/ThreadPool/build",
-  "command": "/usr/bin/c++   -g -pthread -std=gnu++20 -o CMakeFiles/ThreadPool.dir/multiprod.cpp.o -c /home/wdz/ThreadPool/multiprod.cpp",
-  "file": "/home/wdz/ThreadPool/multiprod.cpp"
+  "command": "/usr/bin/c++   -g -pthread -std=gnu++20 -o CMakeFiles/ThreadPool.dir/benchtest.cpp.o -c /home/wdz/ThreadPool/benchtest.cpp",
+  "file": "/home/wdz/ThreadPool/benchtest.cpp"
 }
 ]

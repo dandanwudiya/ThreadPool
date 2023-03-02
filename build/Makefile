@@ -153,29 +153,29 @@ ThreadPool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/ThreadPool.cpp.s
 .PHONY : ThreadPool.cpp.s
 
-multiprod.o: multiprod.cpp.o
-.PHONY : multiprod.o
+benchtest.o: benchtest.cpp.o
+.PHONY : benchtest.o
 
 # target to build an object file
-multiprod.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/multiprod.cpp.o
-.PHONY : multiprod.cpp.o
+benchtest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/benchtest.cpp.o
+.PHONY : benchtest.cpp.o
 
-multiprod.i: multiprod.cpp.i
-.PHONY : multiprod.i
+benchtest.i: benchtest.cpp.i
+.PHONY : benchtest.i
 
 # target to preprocess a source file
-multiprod.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/multiprod.cpp.i
-.PHONY : multiprod.cpp.i
+benchtest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/benchtest.cpp.i
+.PHONY : benchtest.cpp.i
 
-multiprod.s: multiprod.cpp.s
-.PHONY : multiprod.s
+benchtest.s: benchtest.cpp.s
+.PHONY : benchtest.s
 
 # target to generate assembly for a file
-multiprod.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/multiprod.cpp.s
-.PHONY : multiprod.cpp.s
+benchtest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadPool.dir/build.make CMakeFiles/ThreadPool.dir/benchtest.cpp.s
+.PHONY : benchtest.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... ThreadPool.o"
 	@echo "... ThreadPool.i"
 	@echo "... ThreadPool.s"
-	@echo "... multiprod.o"
-	@echo "... multiprod.i"
-	@echo "... multiprod.s"
+	@echo "... benchtest.o"
+	@echo "... benchtest.i"
+	@echo "... benchtest.s"
 .PHONY : help
 
 

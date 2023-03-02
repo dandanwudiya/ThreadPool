@@ -83,30 +83,30 @@ CMakeFiles/ThreadPool.dir/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadPool.dir/ThreadPool.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wdz/ThreadPool/ThreadPool.cpp -o CMakeFiles/ThreadPool.dir/ThreadPool.cpp.s
 
-CMakeFiles/ThreadPool.dir/multiprod.cpp.o: CMakeFiles/ThreadPool.dir/flags.make
-CMakeFiles/ThreadPool.dir/multiprod.cpp.o: ../multiprod.cpp
-CMakeFiles/ThreadPool.dir/multiprod.cpp.o: CMakeFiles/ThreadPool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wdz/ThreadPool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ThreadPool.dir/multiprod.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ThreadPool.dir/multiprod.cpp.o -MF CMakeFiles/ThreadPool.dir/multiprod.cpp.o.d -o CMakeFiles/ThreadPool.dir/multiprod.cpp.o -c /home/wdz/ThreadPool/multiprod.cpp
+CMakeFiles/ThreadPool.dir/benchtest.cpp.o: CMakeFiles/ThreadPool.dir/flags.make
+CMakeFiles/ThreadPool.dir/benchtest.cpp.o: ../benchtest.cpp
+CMakeFiles/ThreadPool.dir/benchtest.cpp.o: CMakeFiles/ThreadPool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wdz/ThreadPool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ThreadPool.dir/benchtest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ThreadPool.dir/benchtest.cpp.o -MF CMakeFiles/ThreadPool.dir/benchtest.cpp.o.d -o CMakeFiles/ThreadPool.dir/benchtest.cpp.o -c /home/wdz/ThreadPool/benchtest.cpp
 
-CMakeFiles/ThreadPool.dir/multiprod.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThreadPool.dir/multiprod.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wdz/ThreadPool/multiprod.cpp > CMakeFiles/ThreadPool.dir/multiprod.cpp.i
+CMakeFiles/ThreadPool.dir/benchtest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThreadPool.dir/benchtest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wdz/ThreadPool/benchtest.cpp > CMakeFiles/ThreadPool.dir/benchtest.cpp.i
 
-CMakeFiles/ThreadPool.dir/multiprod.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadPool.dir/multiprod.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wdz/ThreadPool/multiprod.cpp -o CMakeFiles/ThreadPool.dir/multiprod.cpp.s
+CMakeFiles/ThreadPool.dir/benchtest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadPool.dir/benchtest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wdz/ThreadPool/benchtest.cpp -o CMakeFiles/ThreadPool.dir/benchtest.cpp.s
 
 # Object files for target ThreadPool
 ThreadPool_OBJECTS = \
 "CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o" \
-"CMakeFiles/ThreadPool.dir/multiprod.cpp.o"
+"CMakeFiles/ThreadPool.dir/benchtest.cpp.o"
 
 # External object files for target ThreadPool
 ThreadPool_EXTERNAL_OBJECTS =
 
 ThreadPool: CMakeFiles/ThreadPool.dir/ThreadPool.cpp.o
-ThreadPool: CMakeFiles/ThreadPool.dir/multiprod.cpp.o
+ThreadPool: CMakeFiles/ThreadPool.dir/benchtest.cpp.o
 ThreadPool: CMakeFiles/ThreadPool.dir/build.make
 ThreadPool: CMakeFiles/ThreadPool.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wdz/ThreadPool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ThreadPool"

@@ -113,7 +113,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "multiprod.cpp",
+			"path" : "benchtest.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
