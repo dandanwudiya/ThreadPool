@@ -9,3 +9,7 @@
 ` make`
 
 ` ./ThreadPool`
+
+## 与单线程的效率对比
+
+更改cmake的编译参数即可
